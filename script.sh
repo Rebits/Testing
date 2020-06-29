@@ -4,5 +4,4 @@ cd wazuh-*
 make -C src clean
 make -C src clean-deps
 echo "Complete!"
-
-/var/ossec/bin/manage_agents
+ls /var/ossec/bin/
