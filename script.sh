@@ -4,11 +4,15 @@ cd wazuh-*
 printf 'USER_LANGUAGE="en"
 USER_NO_STOP="y"
 USER_INSTALL_TYPE="server"
-USER_DIR="/var/ossec"
+USER_ENABLE_EMAIL="n"
 USER_ENABLE_SYSCHECK="y"
 USER_ENABLE_ROOTCHECK="y"
 USER_ENABLE_OPENSCAP="y"
-USER_ENABLE_ACTIVE_RESPONSE="y"' > preloaded-vars.conf
+USER_WHITE_LIST="n"
+USER_ENABLE_SYSLOG="y"
+USER_CA_STORE="n"' > preloaded-vars.conf
 cat  preloaded-vars.conf
 ./install.sh
 echo "Complete!"
+
+
