@@ -10,7 +10,7 @@ USER_ENABLE_ROOTCHECK="y"
 USER_ENABLE_OPENSCAP="y"
 USER_WHITE_LIST="n"
 USER_ENABLE_SYSLOG="y"
-USER_CA_STORE="n"' > preloaded-vars.conf
+USER_CA_STORE="n"' > etc/preloaded-vars.conf
 cat  preloaded-vars.conf
 ./install.sh
 echo "Complete!"
