@@ -9,4 +9,5 @@ USER_ENABLE_SYSCHECK="y"\n
 USER_ENABLE_ROOTCHECK="y"\n
 USER_ENABLE_OPENSCAP="y"\n
 USER_ENABLE_ACTIVE_RESPONSE="y"' > preloaded-vars.conf
+./install.sh
 echo "Complete!"
